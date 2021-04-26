@@ -1,0 +1,16 @@
+C:\Users\hdeni\source\repos\CORG\CORG\bin\Debug\netcoreapp3.1\CORG.exe
+C:\Users\hdeni\source\repos\CORG\CORG\bin\Debug\netcoreapp3.1\CORG.deps.json
+C:\Users\hdeni\source\repos\CORG\CORG\bin\Debug\netcoreapp3.1\CORG.runtimeconfig.json
+C:\Users\hdeni\source\repos\CORG\CORG\bin\Debug\netcoreapp3.1\CORG.runtimeconfig.dev.json
+C:\Users\hdeni\source\repos\CORG\CORG\bin\Debug\netcoreapp3.1\CORG.dll
+C:\Users\hdeni\source\repos\CORG\CORG\bin\Debug\netcoreapp3.1\CORG.pdb
+C:\Users\hdeni\source\repos\CORG\CORG\obj\Debug\netcoreapp3.1\CORG.Form1.resources
+C:\Users\hdeni\source\repos\CORG\CORG\obj\Debug\netcoreapp3.1\CORG.csproj.GenerateResource.cache
+C:\Users\hdeni\source\repos\CORG\CORG\obj\Debug\netcoreapp3.1\CORG.AssemblyInfoInputs.cache
+C:\Users\hdeni\source\repos\CORG\CORG\obj\Debug\netcoreapp3.1\CORG.AssemblyInfo.cs
+C:\Users\hdeni\source\repos\CORG\CORG\obj\Debug\netcoreapp3.1\CORG.csproj.CoreCompileInputs.cache
+C:\Users\hdeni\source\repos\CORG\CORG\obj\Debug\netcoreapp3.1\CORG.dll
+C:\Users\hdeni\source\repos\CORG\CORG\obj\Debug\netcoreapp3.1\CORG.pdb
+C:\Users\hdeni\source\repos\CORG\CORG\obj\Debug\netcoreapp3.1\CORG.genruntimeconfig.cache
+C:\Users\hdeni\source\repos\CORG\CORG\obj\Debug\netcoreapp3.1\CORG.Properties.Resources.resources
+C:\Users\hdeni\source\repos\CORG\CORG\obj\Debug\netcoreapp3.1\CORG.csprojAssemblyReference.cache
