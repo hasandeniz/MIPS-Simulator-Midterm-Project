@@ -29,23 +29,12 @@ namespace CORG
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.oneStepButton = new System.Windows.Forms.Button();
             this.executeButton = new System.Windows.Forms.Button();
             this.codeBox = new System.Windows.Forms.RichTextBox();
             this.tabControl = new System.Windows.Forms.TabControl();
             this.sRegisterTab = new System.Windows.Forms.TabPage();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.tRegisterTab = new System.Windows.Forms.TabPage();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.aRegisterTab = new System.Windows.Forms.TabPage();
-            this.listBox3 = new System.Windows.Forms.ListBox();
-            this.vRegisterTab = new System.Windows.Forms.TabPage();
-            this.listBox4 = new System.Windows.Forms.ListBox();
-            this.hiloTab = new System.Windows.Forms.TabPage();
-            this.listBox6 = new System.Windows.Forms.ListBox();
-            this.fRegisterTab = new System.Windows.Forms.TabPage();
-            this.listBox7 = new System.Windows.Forms.ListBox();
             this.clearLogButton = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.stackTab = new System.Windows.Forms.TabPage();
@@ -57,11 +46,6 @@ namespace CORG
             this.button1 = new System.Windows.Forms.Button();
             this.tabControl.SuspendLayout();
             this.sRegisterTab.SuspendLayout();
-            this.tRegisterTab.SuspendLayout();
-            this.aRegisterTab.SuspendLayout();
-            this.vRegisterTab.SuspendLayout();
-            this.hiloTab.SuspendLayout();
-            this.fRegisterTab.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.stackTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -98,16 +82,11 @@ namespace CORG
             this.codeBox.Name = "codeBox";
             this.codeBox.Size = new System.Drawing.Size(244, 448);
             this.codeBox.TabIndex = 7;
-            this.codeBox.Text = resources.GetString("codeBox.Text");
+            this.codeBox.Text = "";
             // 
             // tabControl
             // 
             this.tabControl.Controls.Add(this.sRegisterTab);
-            this.tabControl.Controls.Add(this.tRegisterTab);
-            this.tabControl.Controls.Add(this.aRegisterTab);
-            this.tabControl.Controls.Add(this.vRegisterTab);
-            this.tabControl.Controls.Add(this.hiloTab);
-            this.tabControl.Controls.Add(this.fRegisterTab);
             this.tabControl.Location = new System.Drawing.Point(330, 76);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
@@ -122,7 +101,7 @@ namespace CORG
             this.sRegisterTab.Padding = new System.Windows.Forms.Padding(3);
             this.sRegisterTab.Size = new System.Drawing.Size(292, 420);
             this.sRegisterTab.TabIndex = 0;
-            this.sRegisterTab.Text = "S";
+            this.sRegisterTab.Text = "Registers";
             this.sRegisterTab.UseVisualStyleBackColor = true;
             // 
             // listBox1
@@ -138,129 +117,6 @@ namespace CORG
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(247, 420);
             this.listBox1.TabIndex = 0;
-            // 
-            // tRegisterTab
-            // 
-            this.tRegisterTab.Controls.Add(this.listBox2);
-            this.tRegisterTab.Location = new System.Drawing.Point(4, 24);
-            this.tRegisterTab.Name = "tRegisterTab";
-            this.tRegisterTab.Padding = new System.Windows.Forms.Padding(3);
-            this.tRegisterTab.Size = new System.Drawing.Size(292, 420);
-            this.tRegisterTab.TabIndex = 1;
-            this.tRegisterTab.Text = "T";
-            this.tRegisterTab.UseVisualStyleBackColor = true;
-            // 
-            // listBox2
-            // 
-            this.listBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.ItemHeight = 15;
-            this.listBox2.Location = new System.Drawing.Point(0, 0);
-            this.listBox2.Margin = new System.Windows.Forms.Padding(0);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(257, 420);
-            this.listBox2.TabIndex = 1;
-            // 
-            // aRegisterTab
-            // 
-            this.aRegisterTab.Controls.Add(this.listBox3);
-            this.aRegisterTab.Location = new System.Drawing.Point(4, 24);
-            this.aRegisterTab.Name = "aRegisterTab";
-            this.aRegisterTab.Padding = new System.Windows.Forms.Padding(3);
-            this.aRegisterTab.Size = new System.Drawing.Size(292, 420);
-            this.aRegisterTab.TabIndex = 2;
-            this.aRegisterTab.Text = "A";
-            this.aRegisterTab.UseVisualStyleBackColor = true;
-            // 
-            // listBox3
-            // 
-            this.listBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.listBox3.FormattingEnabled = true;
-            this.listBox3.ItemHeight = 15;
-            this.listBox3.Location = new System.Drawing.Point(0, 0);
-            this.listBox3.Margin = new System.Windows.Forms.Padding(0);
-            this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(257, 420);
-            this.listBox3.TabIndex = 2;
-            // 
-            // vRegisterTab
-            // 
-            this.vRegisterTab.Controls.Add(this.listBox4);
-            this.vRegisterTab.Location = new System.Drawing.Point(4, 24);
-            this.vRegisterTab.Name = "vRegisterTab";
-            this.vRegisterTab.Padding = new System.Windows.Forms.Padding(3);
-            this.vRegisterTab.Size = new System.Drawing.Size(292, 420);
-            this.vRegisterTab.TabIndex = 3;
-            this.vRegisterTab.Text = "V";
-            this.vRegisterTab.UseVisualStyleBackColor = true;
-            // 
-            // listBox4
-            // 
-            this.listBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.listBox4.FormattingEnabled = true;
-            this.listBox4.ItemHeight = 15;
-            this.listBox4.Location = new System.Drawing.Point(0, 0);
-            this.listBox4.Margin = new System.Windows.Forms.Padding(0);
-            this.listBox4.Name = "listBox4";
-            this.listBox4.Size = new System.Drawing.Size(359, 420);
-            this.listBox4.TabIndex = 2;
-            // 
-            // hiloTab
-            // 
-            this.hiloTab.Controls.Add(this.listBox6);
-            this.hiloTab.Location = new System.Drawing.Point(4, 24);
-            this.hiloTab.Name = "hiloTab";
-            this.hiloTab.Padding = new System.Windows.Forms.Padding(3);
-            this.hiloTab.Size = new System.Drawing.Size(292, 420);
-            this.hiloTab.TabIndex = 4;
-            this.hiloTab.Text = "Hi/Lo";
-            this.hiloTab.UseVisualStyleBackColor = true;
-            // 
-            // listBox6
-            // 
-            this.listBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox6.FormattingEnabled = true;
-            this.listBox6.ItemHeight = 15;
-            this.listBox6.Location = new System.Drawing.Point(0, 0);
-            this.listBox6.Margin = new System.Windows.Forms.Padding(0);
-            this.listBox6.Name = "listBox6";
-            this.listBox6.Size = new System.Drawing.Size(292, 424);
-            this.listBox6.TabIndex = 0;
-            // 
-            // fRegisterTab
-            // 
-            this.fRegisterTab.Controls.Add(this.listBox7);
-            this.fRegisterTab.Location = new System.Drawing.Point(4, 24);
-            this.fRegisterTab.Name = "fRegisterTab";
-            this.fRegisterTab.Padding = new System.Windows.Forms.Padding(3);
-            this.fRegisterTab.Size = new System.Drawing.Size(292, 420);
-            this.fRegisterTab.TabIndex = 5;
-            this.fRegisterTab.Text = "F";
-            this.fRegisterTab.UseVisualStyleBackColor = true;
-            // 
-            // listBox7
-            // 
-            this.listBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox7.FormattingEnabled = true;
-            this.listBox7.ItemHeight = 15;
-            this.listBox7.Location = new System.Drawing.Point(3, 0);
-            this.listBox7.Margin = new System.Windows.Forms.Padding(0);
-            this.listBox7.Name = "listBox7";
-            this.listBox7.Size = new System.Drawing.Size(286, 424);
-            this.listBox7.TabIndex = 0;
             // 
             // clearLogButton
             // 
@@ -398,11 +254,6 @@ namespace CORG
             this.Text = "Form1";
             this.tabControl.ResumeLayout(false);
             this.sRegisterTab.ResumeLayout(false);
-            this.tRegisterTab.ResumeLayout(false);
-            this.aRegisterTab.ResumeLayout(false);
-            this.vRegisterTab.ResumeLayout(false);
-            this.hiloTab.ResumeLayout(false);
-            this.fRegisterTab.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.stackTab.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -419,13 +270,7 @@ namespace CORG
         private System.Windows.Forms.RichTextBox codeBox;
         private System.Windows.Forms.TabControl tabControl;
         private System.Windows.Forms.TabPage sRegisterTab;
-        private System.Windows.Forms.TabPage tRegisterTab;
-        private System.Windows.Forms.TabPage aRegisterTab;
-        private System.Windows.Forms.TabPage vRegisterTab;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.ListBox listBox3;
-        private System.Windows.Forms.ListBox listBox4;
         private System.Windows.Forms.Button clearLogButton;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage stackTab;
@@ -434,10 +279,6 @@ namespace CORG
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.TabPage logTab;
         private System.Windows.Forms.ListBox listBox5;
-        private System.Windows.Forms.TabPage hiloTab;
-        private System.Windows.Forms.ListBox listBox6;
-        private System.Windows.Forms.TabPage fRegisterTab;
-        private System.Windows.Forms.ListBox listBox7;
         private System.Windows.Forms.Button button1;
     }
 }

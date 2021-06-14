@@ -57,32 +57,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="codeBox.Text" xml:space="preserve">
-    <value>.data
-	a: .word 31
-	b: .word 13
-	c: .word 0
-	d: .float 43.54
-.text
-main:
-	sw $f7, d
-	add.d $f23, $f5, $f12
-	sub.d $f5, $f7, $f6
-	mul.d $f15, $f4, $f8
-	div.d $f25, $f1, $f17
-	mult $s2,$s4
-	sw $s0, -10($sp)
-	sw $t5, a
-	lw $s0, a
-hasan:
-	add $s0,$s1,$s4
-	add $s2,$s1,$s4
-ali:
-	beq $s0,$s2, temp
-test:
-	sw $s4, -5($sp)
-temp:
-	sub $s0,$t8,$a2
-exit:</value>
-  </data>
 </root>
