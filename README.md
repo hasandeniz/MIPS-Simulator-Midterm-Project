@@ -1,1 +1,1 @@
-# MIPS-Simulator-Midterm-Project
+# Computer Organizations Course MIPS-Simulator-Midterm-Project
